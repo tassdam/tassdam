@@ -44,6 +44,4 @@ jobs:
           git config --global user.email "github-actions-bot@tassdam.github.io"
           git config --global user.name "tassdam/GitHub-Actions-Bot"
           git commit -m "Updated README" -a || echo "No changes to commit"
-          # Reset remote URL with x-access-token prefix so the push uses your personal token
-          git remote set-url origin https://x-access-token:$ACCESS_TOKEN@github.com/tassdam/tassdam.git
-          git push origin main
+          git push https://x-access-token:${ACCESS_TOKEN}@github.com/tassdam/tassdam.git HEAD:main
