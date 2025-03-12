@@ -36,10 +36,14 @@ jobs:
         run: python today.py
       
       - name: Commit
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           git add .
           git diff
           git config --global user.email "github-actions-bot@tassdam.github.io"
           git config --global user.name "tassdam/GitHub-Actions-Bot"
           git commit -m "Updated README" -a || echo "No changes to commit"
-          git push
+          # Set the remote URL to use the personal access token for authentication
+          git remote set-url origin https://$ACCESS_TOKEN@github.com/tassdam/tassdam.git
+          git push origin main
