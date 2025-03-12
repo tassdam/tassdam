@@ -15,37 +15,59 @@
     .cc { fill: #616e7f; }
     text, tspan { white-space: pre; }
   </style>
+
+  <!-- Background -->
   <rect width="985px" height="530px" fill="#161b22" rx="15"/>
-  
-  <!-- Left: Custom ASCII Art -->
-  <text x="15" y="30" fill="#c9d1d9" class="ascii">
-    <tspan x="15" y="30">***///@@@@@@@@@@@@@@@&amp;@@@@@@%@@@@@@@@@@@@@@@@(////</tspan>
-    <tspan x="15" y="50">/@@/@@@@@@@@@@@@@@@@@@@@#(%&amp;(@@@@@@@@@@@@@@@&amp;*****</tspan>
-    <tspan x="15" y="70">/@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@%(((/((((</tspan>
-    <tspan x="15" y="90">@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@@(((((((((</tspan>
-    <tspan x="15" y="110">*@@@@@@@@@@@@@@@@@@&amp;@@@@@@@(@#@@&amp;@&amp;@@/@@@@@@@&amp;((((</tspan>
-    <tspan x="15" y="130">@@@@@@@@@@@@%@@&amp;(@@%/@%@&amp;@@@&&#&amp;@&&&&@@@@%*&amp;@/((((()</tspan>
-    <tspan x="15" y="150">&&&&&&&*@&amp;(@@&#@&amp;*%@&amp;%@&amp;*@@&amp;%&#&amp;%%(&amp;&amp;&amp;&amp;&amp;@@@((//((</tspan>
-    <tspan x="15" y="170">//&&&%@&&@&amp;@&&/&amp;*//%%%%&amp;%%&&%%##&#&&&&/&&&&&&&amp;%((()</tspan>
-    <tspan x="15" y="190">*&&&&&&&&&#@&#,%%,,,,##/%%%%&amp;%%%@.,,@*@%*%&amp;/////////</tspan>
-    <tspan x="15" y="210">,**/%&&,%%/&amp;%@@@@/.,(@@@@#&amp;@@@@%/(@&amp;@%%&amp;/(//*****//</tspan>
-    <tspan x="15" y="230">////&&,&amp;@#%@@@@@@@&&amp;@@@@@@@&amp;%@@@@@@@&&////////////</tspan>
-    <tspan x="15" y="250">****/**/&amp;%&amp;@%&amp;@@@@@@@@@@@@@&&amp;@@@@@@///////////////</tspan>
-    <tspan x="15" y="270">**********%/&&#@@@@@@@@@@&amp;@@@@@@@&amp;/********/******</tspan>
-    <tspan x="15" y="290">**********#*,*%%&amp;%&amp;@@@@@@%%&amp;@@&amp;******///***/******</tspan>
-    <tspan x="15" y="310">/**********///,*...%%%%#&amp;@&amp;@*(,,***//////*///////*</tspan>
-    <tspan x="15" y="330">(**********/*/*/,...........,,,.&(///&&&&#////////</tspan>
-    <tspan x="15" y="350">(((/********%&&@&amp;.........,,,.,,&amp;@@&&&&&&&&&&%****</tspan>
-    <tspan x="15" y="370">(/%(***,@&amp;@@@@@&amp;.............,,&&&&&&&&&&&&&&&&&//</tspan>
-    <tspan x="15" y="390">,##/*/&&&&&&&&&&,..........,,&&&&&&&&&&&&&&&&&&&&/</tspan>
-    <tspan x="15" y="410">*//**&&&&&&&&&&&,,........,&&&&&&&&&&&&&&&&&&%%%%%</tspan>
+
+  <!-- Define a clipPath for the ASCII art block (350px by 480px starting at x=15, y=30) -->
+  <defs>
+    <clipPath id="asciiClip">
+      <rect x="15" y="30" width="350" height="480"/>
+    </clipPath>
+  </defs>
+
+  <!-- Left: ASCII Art (clipped to 350x480) -->
+  <text x="15" y="30" fill="#c9d1d9" class="ascii" clip-path="url(#asciiClip)">
+    <tspan x="15" y="30">***#............................=......................:**++</tspan>
+    <tspan x="15" y="50">+..........................=.=....-..................*******</tspan>
+    <tspan x="15" y="70">++............................*:...................+========</tspan>
+    <tspan x="15" y="90">..........................*.......=.....:........+**=.+=++++</tspan>
+    <tspan x="15" y="110">.................................*+.............**===+++++++</tspan>
+    <tspan x="15" y="130">+.............:............=...........-...+.............+++</tspan>
+    <tspan x="15" y="150">*.....................:.........:..:....=..............+++++</tspan>
+    <tspan x="15" y="170">...................:.............:.*:..:.::.....:..*++++++++</tspan>
+    <tspan x="15" y="190">.....:............:...:-..*..#...::.::.-:*::.=...:+*:.++++++</tspan>
+    <tspan x="15" y="210">::::.::::....+..::*..:-=.:-.:=:..:+:+::-:#*::.::...-++*+++++</tspan>
+    <tspan x="15" y="230">::::::::..=.:..::-.::--.:--::-:..:-:##:+-#-::::::::..-++++++</tspan>
+    <tspan x="15" y="250">++::::=.::*::.::-::*+=-:---::-::::-:*-:=.+.-:+:::::::::-++==</tspan>
+    <tspan x="15" y="270">*:::*:::::+:*.:*:+****#=#*-:---::-*:%##+--%.:.::++++++++++++</tspan>
+    <tspan x="15" y="290">:::::::::*:::::+%--:.%#%%%#---::#--=.#%*...++::-+***********</tspan>
+    <tspan x="15" y="310">::::#:::*---.*:.....*%%#*..-.-:*....*+=*...--.*+************</tspan>
+    <tspan x="15" y="330">***+-:::*-.#-.*...*..*++........=...+..=...--:*************+</tspan>
+    <tspan x="15" y="350">***+::#-:..--...................:-........#.:*+**+****+***++</tspan>
+    <tspan x="15" y="370">++++:#++:-.:--+..................-.........-++++*+++++++***+</tspan>
+    <tspan x="15" y="390">****-****:#:....................:.........+++++++++++++++++*</tspan>
+    <tspan x="15" y="410">*********-**::::-.......................:******************#</tspan>
+    <tspan x="15" y="430">************:#::::-...................-********************#</tspan>
+    <tspan x="15" y="450">**************%*%:*:-:........-:....-**********************#</tspan>
+    <tspan x="15" y="470">*******************=%*-+--:.......-%%##********************#</tspan>
+    <tspan x="15" y="490">***************++*%%%%-------*:.+#%###*****************++**#</tspan>
+    <tspan x="15" y="510">++*+++++++*+++++++*@%%%%%%%%%%%%%%##%%*++++++*+**+**++++++**</tspan>
+    <tspan x="15" y="530">**###########***#**#%%%%%%%%%%%%%#%%%#:............:********</tspan>
+    <tspan x="15" y="550">====#*#####*#:.....:%%%%%%%%%%%%%%%%%#..........:.:::.#*****</tspan>
+    <tspan x="15" y="570">+--=*****=.........#%@%%%%%%%%%%%%%##:..::::::::::::::::****</tspan>
+    <tspan x="15" y="590">--==****..........:#%@%%%%%%%%%%%%##:::::::::::::::::::::#**</tspan>
+    <tspan x="15" y="610">=--=***:..........##%%%@%%%%@%%%%%%:::::::::::::::::::::::*+</tspan>
+    <tspan x="15" y="630">*+*###::::::::::..-#%%%%%%%%%%%%#::::::::::::::::::::::::::+</tspan>
+    <tspan x="15" y="650">#**#*::::::::::::::#%%%%%%%%%%%#::::::::*::::+:::::::::::::%</tspan>
+    <tspan x="15" y="670">****+::::::::::::::#%%%%%%%%%%#:::::::::::-=:::::::::::----=</tspan>
   </text>
   
-  <!-- Right: Your Information -->
+  <!-- Right: User Info -->
   <text x="390" y="30" fill="#c9d1d9">
     <tspan x="390" y="30">tassdam</tspan> -————————————————————————————————————————————
     <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">MacOS Ventura 13.7.1</tspan>
-    <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">[Your uptime here]</tspan>
+    <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">N/A</tspan>
     <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">University of Rome La Sapienza</tspan>
     <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">Full-Time Student</tspan>
     <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">VSCode 1.95.2</tspan>
@@ -61,8 +83,10 @@
     <tspan x="390" y="330" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">tassybayev</tspan>
     <tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value" id="discord_data">[Not provided]</tspan>
     <tspan x="390" y="370">- GitHub Stats</tspan> -—————————————————————————————————————————
-    <tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ..... </tspan><tspan class="value" id="repo_data">[Repo Count]</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">[Contributed]</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............. </tspan><tspan class="value" id="star_data">[Stars]</tspan>
-    <tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan><tspan class="value" id="commit_data">[Commits]</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ......... </tspan><tspan class="value" id="follower_data">[Followers]</tspan>
-    <tspan x="390" y="430" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan><tspan class="value" id="loc_data">[LOC]</tspan> ( <tspan class="addColor" id="loc_add">[Added]</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">[Deleted]</tspan><tspan class="delColor">--</tspan> )
+    <tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> [Repo Count] </tspan>{<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">[Contributed]</tspan>} | 
+    <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> [Stars] </tspan>
+    <tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> [Commits] </tspan>| 
+    <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> [Followers] </tspan>
+    <tspan x="390" y="430" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots"> [LOC] </tspan> ( <tspan class="addColor" id="loc_add">[Added]</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> [Deleted] </tspan><tspan class="delColor" id="loc_del">--</tspan> )
   </text>
 </svg>
