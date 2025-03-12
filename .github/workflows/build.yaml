@@ -36,14 +36,14 @@ jobs:
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
       
-      - name: Commit
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: |
-          git add .
-          git diff
-          git config --global user.email "github-actions-bot@tassdam.github.io"
-          git config --global user.name "tassdam/GitHub-Actions-Bot"
-          git commit -m "Updated README" -a || echo "No changes to commit"
-          # Push directly using your personal access token (PAT)
-          git push https://x-access-token:${ACCESS_TOKEN}@github.com/tassdam/tassdam.git HEAD:main
+      # - name: Commit
+      #   env:
+      #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      #   run: |
+      #     git add .
+      #     git diff
+      #     git config --global user.email "github-actions-bot@tassdam.github.io"
+      #     git config --global user.name "tassdam/GitHub-Actions-Bot"
+      #     git commit -m "Updated README" -a || echo "No changes to commit"
+      #     git push https://x-access-token:${ACCESS_TOKEN}@github.com/tassdam/tassdam.git HEAD:main
+
