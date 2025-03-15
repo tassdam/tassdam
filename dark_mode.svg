@@ -17,7 +17,7 @@
   </style>
   
   <!-- Make the background rect match the new overall width -->
-  <rect width="1200px" height="530px" fill="#161b22" rx="15"/>
+  <rect width="1200px" height="450px" fill="#161b22" rx="15"/>
 
   <!-- Clip path is now wider: 700px instead of 350px -->
   <defs>
