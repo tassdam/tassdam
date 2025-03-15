@@ -64,6 +64,6 @@
     <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............. </tspan>
     <tspan x="580" y="470" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan>| 
     <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ......... </tspan>
-    <tspan x="580" y="490" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan> ( <tspan class="addColor" id="loc_add">609,891</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots">. </tspan><tspan class="delColor" id="loc_del">7,181</tspan> )
+    <tspan x="580" y="490" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan> ( <tspan class="addColor" id="loc_add">609,911</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots">. </tspan><tspan class="delColor" id="loc_del">7,212</tspan> )
   </text>
 </svg>
