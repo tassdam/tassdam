@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1200px" height="530px" font-size="16px">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  font-family="ConsolasFallback,Consolas,monospace"
+  width="1200px"
+  height="530px"
+  font-size="16px"
+>
   <style>
     @font-face {
       src: local('Consolas'), local('Consolas Bold');
@@ -16,17 +22,17 @@
     text, tspan { white-space: pre; }
   </style>
   
-  <!-- Make the background rect match the new overall width -->
+  <!-- Background -->
   <rect width="1200px" height="530px" fill="#161b22" rx="15"/>
 
-  <!-- Clip path is now wider: 700px instead of 350px -->
+  <!-- Clip path: now 690px wide (instead of 700) to give more room for text on the right -->
   <defs>
     <clipPath id="asciiClip">
-      <rect x="15" y="30" width="700" height="480"/>
+      <rect x="15" y="30" width="690" height="480"/>
     </clipPath>
   </defs>
 
-  <!-- Left: ASCII Art -->
+  <!-- Left: ASCII Art, clipped to 690px -->
   <text x="15" y="30" fill="#c9d1d9" font-size="16px" class="ascii" clip-path="url(#asciiClip)">
     <tspan x="15" y="30">⡀⢀⢠⢆⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="15" y="50">⠁⢘⡿⠏⠘⠻⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⣾⣷⣦⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
@@ -40,8 +46,8 @@
     <tspan x="15" y="210">⠀⠀⠀⠀⢰⣦⠀⠀⠀⠣⡙⠆⠑⣿⣿⢿⣿⠋⣿⣿⣷⣶⣾⡇⢹⣿⣿⣷⣿⣄⡀⢒⣂⣀⣶⠛⣉⣴⣿⣿⠁⠁⢀⣱⠇⠀⠀⠀⠀⠀</tspan>
     <tspan x="15" y="230">⠀⠀⠀⠀⢸⡏⠀⠀⠀⠀⠹⣆⡁⢸⣿⡆⠀⠀⠙⢻⣿⣿⣿⠁⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢻⣿⣿⣿⠇⢀⣿⠘⣿⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="15" y="250">⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠁⠆⠈⣿⣃⣤⡄⢸⣿⣿⣿⠃⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢃⢸⣿⣿⡟⣠⠞⣩⠞⠁⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="15" y="270">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣶⣿⣿⡟⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⡾⢸⣿⡟⠀⣡⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
-    <tspan x="15" y="290">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣅⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣾⡟⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="15" y="270">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣶⣿⣿⡟⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⡾⢸⣿⡟⠀⣡⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+    <tspan x="15" y="290">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣅⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣾⡟⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="15" y="310">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠀⠀⠹⣿⣿⡹⣿⣿⣿⣿⣌⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="15" y="330">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡄⢸⣷⡈⢻⣿⡦⢭⣍⣉⣙⣋⣛⣛⣛⣛⣛⣥⣾⣿⠟⣡⡄⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
     <tspan x="15" y="350">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡀⢸⣧⠘⣿⣷⠀⠹⣿⣦⡙⢛⡛⠻⠿⠟⣋⣽⣿⡿⠛⢡⣾⡟⠀⣰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
@@ -55,30 +61,36 @@
     <tspan x="15" y="510">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠒⠶⠤⣤⣀⣤⡌⠁⠀⠀⠀⠁⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
   </text>
 
-  <!-- Right: User Info (moved to x=730) -->
-  <text x="730" y="30" fill="#c9d1d9">
-    <tspan x="730" y="30">tassdam</tspan> -————————————————————————————————————————————
-    <tspan x="730" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">MacOS Ventura 13.7.1</tspan>
-    <tspan x="730" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">N/A</tspan>
-    <tspan x="730" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">University of Rome La Sapienza</tspan>
-    <tspan x="730" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">Full-Time Student</tspan>
-    <tspan x="730" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">VSCode 1.95.2</tspan>
-    <tspan x="730" y="150" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, Vue.js, Go</tspan>
-    <tspan x="730" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">HTML, CSS</tspan>
-    <tspan x="730" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English, Russian, Kazakh, Italian</tspan>
-    <tspan x="730" y="210" class="cc">. </tspan>
-    <tspan x="730" y="230" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Minecraft Modding, iOS Jailbreaking</tspan>
-    <tspan x="730" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Overclocking, Undervolting</tspan>
-    <tspan x="730" y="270">- Contact</tspan> -————————————————————————————————————————————
-    <tspan x="730" y="290" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">tassybayev.kostanay@gmail.com</tspan>
-    <tspan x="730" y="310" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Work</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">tassybayev.kostanay@gmail.com</tspan>
-    <tspan x="730" y="330" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">tassybayev</tspan>
-    <tspan x="730" y="350" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value" id="discord_data">[Not provided]</tspan>
-    <tspan x="730" y="370">- GitHub Stats</tspan> -—————————————————————————————————————————
-    <tspan x="730" y="390" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ..... </tspan>{<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">11</tspan>} | 
+  <!-- Right: User Info, moved from x=730 to x=710 (closer to the art) -->
+  <text x="710" y="30" fill="#c9d1d9">
+
+    <!-- Shorter dash lines to avoid wide overflow -->
+    <tspan x="710" y="30">tassdam</tspan> -——————————————
+    <tspan x="710" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">MacOS Ventura 13.7.1</tspan>
+    <tspan x="710" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">N/A</tspan>
+    <tspan x="710" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">University of Rome La Sapienza</tspan>
+    <tspan x="710" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">Full-Time Student</tspan>
+    <tspan x="710" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">VSCode 1.95.2</tspan>
+    <tspan x="710" y="150" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, Vue.js, Go</tspan>
+    <tspan x="710" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">HTML, CSS</tspan>
+    <tspan x="710" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English, Russian, Kazakh, Italian</tspan>
+    <tspan x="710" y="210" class="cc">. </tspan>
+    <tspan x="710" y="230" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Minecraft Modding, iOS Jailbreaking</tspan>
+    <tspan x="710" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Overclocking, Undervolting</tspan>
+
+    <!-- Shorter dash line here too -->
+    <tspan x="710" y="270">- Contact</tspan> -——————————————
+    <tspan x="710" y="290" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">tassybayev.kostanay@gmail.com</tspan>
+    <tspan x="710" y="310" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Work</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">tassybayev.kostanay@gmail.com</tspan>
+    <tspan x="710" y="330" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">tassybayev</tspan>
+    <tspan x="710" y="350" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value" id="discord_data">[Not provided]</tspan>
+
+    <!-- Another shorter dash line -->
+    <tspan x="710" y="370">- GitHub Stats</tspan> -——————————————
+    <tspan x="710" y="390" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ..... </tspan>{<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">11</tspan>} | 
     <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............. </tspan>
-    <tspan x="730" y="410" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan>| 
+    <tspan x="710" y="410" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan>| 
     <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ......... </tspan>
-    <tspan x="730" y="430" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan> ( <tspan class="addColor" id="loc_add">609,756</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots">. </tspan><tspan class="delColor" id="loc_del">7,050</tspan> )
+    <tspan x="710" y="430" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan> ( <tspan class="addColor" id="loc_add">609,756</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots">. </tspan><tspan class="delColor" id="loc_del">7,050</tspan> )
   </text>
 </svg>
