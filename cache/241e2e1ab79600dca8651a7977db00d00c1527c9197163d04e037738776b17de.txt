@@ -1,10 +1,10 @@
-This line is a comment block. Write whatever you want here.
-This line is a comment block. Write whatever you want here.
-This line is a comment block. Write whatever you want here.
-This line is a comment block. Write whatever you want here.
-This line is a comment block. Write whatever you want here.
-This line is a comment block. Write whatever you want here.
-This line is a comment block. Write whatever you want here.
+Это кэш всех репозиториев, которыми я владею, в которые я вносил вклад или членом которых я являюсь. ЛКДМ - линии кода добавленные мной, ЛКУМ - линии кода удаленные мной.
+
+    репо (хеш)   вообщем коммитов     мои коммиты    ЛКДМ            ЛКУМ       
+         \                \                \           \_____________  \
+          \                \                \______________________  \  \
+           \                \___________________________________   \  \  \
+____________\___________________________________________________\___\__\__\_______
 086b6e72477551e3ee4302af0d0ccedd18dbcc2dd43386eb8020bef5c0a93625 17 15 1450 202
 57bafe6119b2880559307db4fde36fa1548d56e4bb947baeba9e6da3d9c4ee0b 4 1 248 714
 7ba561ffefee3c343e9fb55fc24bb81c398f7de88ca327282708ae7957afd280 4 1 248 714
