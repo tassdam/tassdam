@@ -46,7 +46,7 @@
   <text x="580" y="30" fill="#c9d1d9">
     <tspan x="580" y="30">tassdam</tspan> —————————————————————————————————————
     <tspan x="580" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">MacOS Ventura 13.7.1</tspan>
-    <tspan x="580" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> .............. </tspan><tspan class="value" id="age_data">21 years, 1 month, 18 days</tspan>
+    <tspan x="580" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> .............. </tspan><tspan class="value" id="age_data">21 years, 1 month, 19 days</tspan>
     <tspan x="580" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">University of Rome La Sapienza</tspan>
     <tspan x="580" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Full-Time Student</tspan>
     <tspan x="580" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">VSCode 1.95.2</tspan>
