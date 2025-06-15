@@ -48,13 +48,12 @@
     <tspan x="580" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">MacOS Ventura 13.7.1</tspan>
     <tspan x="580" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> .............. </tspan><tspan class="value" id="age_data">21 years, 2 months, 9 days</tspan>
     <tspan x="580" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">University of Rome La Sapienza</tspan>
-    <tspan x="580" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Full-Time Student</tspan>
-    <tspan x="580" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">VSCode 1.95.2</tspan>
-    <tspan x="580" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Python, Vue.js, Go</tspan>
-    <tspan x="580" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">HTML, CSS</tspan>
-    <tspan x="580" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Kazakh, Russian, English</tspan>
-    <tspan x="580" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">SW</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">Wallpaper Modding, 3D Modeling</tspan>
-    <tspan x="580" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">RL</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Mountain Climbing, Travelling</tspan>
+    <tspan x="580" y="110" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Soon-to-graduate Student</tspan>
+    <tspan x="580" y="130" class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">VSCode 1.95.2</tspan>
+    <tspan x="580" y="180" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Python</tspan>
+    <tspan x="580" y="200" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Kazakh, Russian, English</tspan>
+    <tspan x="580" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">SW</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">Studying</tspan>
+    <tspan x="580" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">RL</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">Studying</tspan>
     <tspan x="580" y="310">- Contact</tspan> ——————————————————————————————————
     <tspan x="580" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Main</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">tassybayev.kostanay@gmail.com</tspan>
     <tspan x="580" y="350" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Backup</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">tassybayevdamir@gmail.com</tspan>
